@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #131313;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 1.5rem 0;
+    margin-right: 2%;
+}
+
+.calendar {
+    width: 30%;
+    background: #f2f2f2;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin: 1rem auto;
+}
+
+.calender-container {
+    height: 450px;
+    width: 100%;
+    background-color: #131313;
+}
+
+.month ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.month ul li {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.month .prev,
+.month .next {
+    cursor: pointer;
+    user-select: none;
+    margin: 10px 30px 30px 10px;
+}
+
+.currentDetails {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weekdays li {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+.days li {
+    width: 14.28%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.days li.prev-month,
+.days li.next-month {
+    color: #999;
+}
+
+.days li.current-day {
+    background: #428bca;
+    color: white;
+    border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+    .calendar {
+        width: 50%;
+    }
+    .calender-container {
+        height: 350px;
+    }
+}
+
+@media (max-width: 680px) {
+    .calendar {
+        width: 90%;
+    }
+    .calender-container {
+        height: 350px;
+    }
+}

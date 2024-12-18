@@ -27,7 +27,6 @@ boxes.forEach(box => {
                 if (currentPlayer === "X") {
                     x.push(move)
                     if (CheckWinner(x)) {
-                        alert("X")
                         game.style.display = "none"
                         restart.style.display = "block"
                         info.style.display = "block"
@@ -40,7 +39,6 @@ boxes.forEach(box => {
                 else {
                     o.push(move)
                     if (CheckWinner(o)) {
-                        alert("O")
                         game.style.display = "none"
                         restart.style.display = "block"
                         info.style.display = "block"

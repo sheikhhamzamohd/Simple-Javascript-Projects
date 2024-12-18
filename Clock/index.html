@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <h1>iClock</h1>
+    <div class="container">
+        <div class="clock-container">
+            <div class="digital">
+                <div class="digital-time">
+                    <div class="d-board">
+                        <div class="d-time d-hour">00</div>
+                        <div class="d">:</div>
+                        <div class="d-time d-min">00</div>
+                        <div class="d">:</div>
+                        <div class="d-time d-sec">00</div>
+                    </div>
+                    <div class="d-mark">
+                        <div class="d-m">Hours</div>
+                        <div class="s"></div>
+                        <div class="d-m">Minutes</div>
+                        <div class="s"></div>
+                        <div class="d-m">Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clock-container">
+            <div class="wall">
+                <div class="hour hand" id="hour"></div>
+                <div class="minute hand" id="minute"></div>
+                <div class="seconds hand" id="seconds"></div>
+                <img src="src/clock.png" alt="clock">
+            </div>
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>

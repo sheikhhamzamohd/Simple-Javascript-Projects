@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 1.5rem 0;
+    margin-right: 30px;
+}
+
+.container {
+    height: 430px;
+    width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.clock-container {
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    margin-right: 30px;
+    background-color: black;
+}
+
+.digital {
+    height: 30%;
+    width: 80%;
+    margin: 35% 10%;
+    box-sizing: border-box;
+    background-color: #131313;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.digital-time {
+    height: 90%;
+    width: 95%;
+    box-sizing: border-box;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.d-board {
+    display: flex;
+    flex-direction: row;
+    height: 55%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.d-time {
+    height: 100%;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.d {
+    height: 80%;
+    width: 12.5%;
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 40px;
+    color: white;
+}
+
+.d-mark {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.d-m {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.s {
+    height: 100%;
+    width: 12.5%;
+}
+
+.wall {
+    background: black;
+    height: 60%;
+    width: 56%;
+    margin: 20% 22%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 15px solid #131313;
+    box-shadow: 15px 15px 35px #00000033, inset 0 0 30px #00000066;
+}
+
+.wall img {
+    position: relative;
+    top: -95%;
+    left: 6.8%;
+}
+
+.hand {
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+
+.hour {
+    height: 60px;
+    width: 10px;
+    top: 23%;
+}
+
+.minute {
+    height: 80px;
+    width: 5px;
+    top: -12%;
+}
+
+.seconds {
+    height: 90px;
+    width: 3px;
+    top: -51%;
+    background-color: #2987e4;
+}
